@@ -1,1 +1,50 @@
+/* style.css */
+
+/* Apply general styling to form elements */
+form {
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+/* Style submit button */
+button[type="submit"] {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Add hover effect to submit button */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: Style labels */
+label {
+    font-weight: bold;
+}
+
+/* Optional: Add spacing between form elements */
+form > * {
+    margin-bottom: 10px;
+}
 
