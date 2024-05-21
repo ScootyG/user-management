@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management Form</title>
+    <style>
+        /* Your CSS styles here */
+    </style>
+</head>
+<body>
+    <h1>User Management Form</h1>
+    <form id="userForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <!-- Add other form fields (e.g., email, role, etc.) -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        // Your JavaScript for form validation and submission
+        document.getElementById('userForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            // Handle form submission here
+        });
+    </script>
+</body>
+</html>
 
